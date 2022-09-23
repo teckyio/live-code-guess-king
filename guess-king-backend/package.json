@@ -1,0 +1,21 @@
+{
+  "name": "guess-king-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.7.18",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "redis": "^4.3.1",
+    "socket.io": "^4.5.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  }
+}
